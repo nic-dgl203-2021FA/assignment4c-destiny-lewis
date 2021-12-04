@@ -1,1 +1,46 @@
 @import 'config';
+
+body {
+    background-color: $primary;
+    color: $text;
+    height: 100vh;
+    font-family: 'Lusitana', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: $accent;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-accent;
+    }
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: .08rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0.8rem;
+    right: 1rem;
+
+    .socials {
+        
+        .fab {
+            margin: 0 0.4rem;
+        }
+    }
+}
