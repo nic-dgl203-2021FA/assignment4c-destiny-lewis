@@ -1,0 +1,32 @@
+.intro {
+    height: 100%;
+    padding-top: 30vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: url('../images/image-1.jpg') center top;
+    background-size: cover;
+
+    &__content {
+        max-width: fit-content;
+        margin: 0 auto;
+        padding: 1rem;
+        background-color: $secondary;
+        border-radius: 25px;
+        font-size: 1.5em;
+    }
+
+    &__text {
+        font-size: 1.2em;
+
+        &--small {
+            font-size: 0.8em;
+        }
+    }
+
+    &__name {
+        font-size: 2.5em;
+        padding: 0.5rem 0;
+        color: darken($secondary, 40%);
+    }
+}

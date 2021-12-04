@@ -5,6 +5,39 @@
   padding: 0;
 }
 
+.intro {
+  height: 100%;
+  padding-top: 30vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: url("../images/image-1.jpg") center top;
+  background-size: cover;
+}
+.intro__content {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #71A8D9;
+  border-radius: 25px;
+  font-size: 1.5em;
+}
+.intro__text {
+  font-size: 1.2em;
+}
+.intro__text--small {
+  font-size: 0.8em;
+}
+.intro__name {
+  font-size: 2.5em;
+  padding: 0.5rem 0;
+  color: #1b4163;
+}
+
 body {
   background-color: #1B3C59;
   color: #fff;
