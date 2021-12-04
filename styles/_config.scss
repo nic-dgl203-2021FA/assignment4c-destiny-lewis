@@ -9,3 +9,22 @@ $secondary-accent: #F2937E;
     margin: 0;
     padding: 0;
 }
+
+// Code reused from Assignment 4b
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out; 
+}
+
+@mixin animate($animation, $duration, $timing, $delay, $count){
+    animation-name: $animation;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+    animation-delay: $delay;
+    animation-iteration-count: $count;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        @content;
+    }
+}
