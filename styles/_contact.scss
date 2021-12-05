@@ -31,4 +31,14 @@
     .fas {
         color: $accent;
     }
+
+    &__socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        .fab {
+            margin-left: 1.5rem;
+        }
+    }
 }

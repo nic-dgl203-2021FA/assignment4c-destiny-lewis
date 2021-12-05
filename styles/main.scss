@@ -38,18 +38,3 @@ main {
     height: 100%;
     width: 100%;
 }
-
-footer {
-    position: fixed;
-    bottom: 0.8rem;
-    right: 1rem;
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-    
-        .fab {
-            margin: 0.5rem;
-        }
-    }
-}

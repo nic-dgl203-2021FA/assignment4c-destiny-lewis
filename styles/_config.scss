@@ -10,6 +10,10 @@ $secondary-accent: #F2937E;
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 // Code reused from Assignment 4b
 @mixin transition-ease {
     transition: all 0.5s ease-in-out; 

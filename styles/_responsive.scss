@@ -1,5 +1,10 @@
 @include screen-md {
 
+    header {
+        position: static !important;
+        background: transparent !important;
+    }
+
     .nav-btn {
         visibility: hidden;
     }
@@ -30,17 +35,8 @@
             grid-template-columns: repeat(2, 1fr);
         }
     }
-
-    .socials {
-        display: flex;
-        flex-direction: row !important;
-    
-        .fab {
-            margin: 0.5rem;
-        }
-    }
 }
 
-@include screen-lg {
+@include screen-xl {
 
 }
