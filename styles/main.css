@@ -229,6 +229,44 @@
   margin: 1rem;
 }
 
+.resume {
+  width: 50vw;
+  margin: 0 auto;
+}
+.resume__items {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+}
+.resume__job {
+  margin: 2rem 0;
+  background-color: #71A8D9;
+  border-radius: 15px;
+}
+.resume__job--date {
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+.resume__job--title {
+  padding-bottom: 0.8rem;
+}
+.resume__job--company {
+  padding-bottom: 0.8rem;
+}
+.resume__job--description {
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.1em;
+}
+.resume__job--duties {
+  padding: 1rem 2.5rem;
+}
+.resume__job--duties__item {
+  text-align: left;
+}
+
 body {
   background-color: #1B3C59;
   color: #fff;
@@ -265,7 +303,7 @@ footer {
   bottom: 0.8rem;
   right: 1rem;
 }
-footer .socials .fab {
+footer .fab {
   margin: 0 0.4rem;
 }
 /*# sourceMappingURL=main.css.map */

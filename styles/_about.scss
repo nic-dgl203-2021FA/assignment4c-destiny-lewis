@@ -34,3 +34,53 @@
         margin: 1rem;
     }
 }
+
+.resume {
+    width: 50vw;
+    margin: 0 auto;
+
+    &__items {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem;
+    }
+
+    &__job {
+
+        margin: 2rem 0;
+        background-color: $secondary;
+        border-radius: 15px;
+        
+        &--date {
+            padding-bottom: 0.8rem;
+            padding-top: 0.8rem;
+        }
+
+        &--title {
+            padding-bottom: 0.8rem;
+        }
+
+        &--company {
+            padding-bottom: 0.8rem;
+        }
+
+        &--description {
+            padding-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            font-size: 1.1em;
+        }
+
+        &--duties {
+
+            padding: 1rem 2.5rem;
+
+            &__item {
+                text-align: left;
+            }
+
+        }
+    }
+
+}
