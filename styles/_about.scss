@@ -44,6 +44,7 @@
 .resume {
     width: 50vw;
     margin: 0 auto;
+    color: $primary;
 
     &__items {
         text-align: center;
@@ -58,16 +59,14 @@
         background-color: $secondary;
         border-radius: 15px;
         
-        &--date {
+        &--info {
+            margin: 2rem;
             padding-bottom: 0.8rem;
-            padding-top: 0.8rem;
+            border-bottom: 2px dashed $accent; 
         }
 
         &--title {
-            padding-bottom: 0.8rem;
-        }
-
-        &--company {
+            color: $accent;
             padding-bottom: 0.8rem;
         }
 
