@@ -43,7 +43,12 @@ footer {
     bottom: 0.8rem;
     right: 1rem;
 
-    .fab {
-        margin: 0 0.4rem;
+    .socials {
+        display: flex;
+        flex-direction: column;
+    
+        .fab {
+            margin: 0.5rem;
+        }
     }
 }

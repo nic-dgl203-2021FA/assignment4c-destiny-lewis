@@ -34,11 +34,13 @@ $secondary-accent: #F2937E;
         @content;
     }
 }
+
 @mixin screen-lg {
     @media screen and (min-width: 1024px) {
         @content;
     }
 }
+
 @mixin screen-xl {
     @media screen and (min-width: 1600px) {
         @content;
