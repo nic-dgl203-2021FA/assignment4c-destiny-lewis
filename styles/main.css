@@ -315,6 +315,23 @@
   position: relative;
   top: 19rem;
 }
+.featured__project {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.featured__project--title {
+  margin-top: 2rem;
+  padding-bottom: 0.8rem;
+}
+.featured__project--description {
+  margin-bottom: 2rem;
+}
+.featured__image {
+  display: block;
+  width: 300px;
+  padding-bottom: 1rem;
+}
 
 body {
   background-color: #1B3C59;

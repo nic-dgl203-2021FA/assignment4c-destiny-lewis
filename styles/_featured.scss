@@ -13,4 +13,25 @@
         }
     }
 
+    &__project {
+        width: 60vw;
+        margin: 0 auto;
+        text-align: center;
+
+        &--title {
+            margin-top: 2rem;
+            padding-bottom: 0.8rem;
+        }
+
+        &--description {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__image {
+        display: block;
+        width: 300px;
+        padding-bottom: 1rem;
+    }
+
 }
