@@ -25,18 +25,23 @@
     &__project {
         width: 60vw;
         margin: 0 auto;
-        text-align: center;
+        // text-align: center;
         background-color: $secondary;
+        color: $primary;
         border-radius: 15px;
 
         &--title {
             margin-top: 2rem;
             padding: 0.8rem;
+            color: $accent;
+            text-align: center;
         }
 
         &--description {
             margin-bottom: 2rem;
             padding-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
         &--link {
@@ -58,6 +63,10 @@
         &--img {
             width: 300px;
             margin: 0 auto;
+        }
+
+        &--caption {
+            margin-bottom: 1rem;
         }
     }
 

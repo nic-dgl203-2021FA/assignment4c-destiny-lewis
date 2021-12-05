@@ -351,17 +351,21 @@
 .featured__project {
   width: 60vw;
   margin: 0 auto;
-  text-align: center;
   background-color: #71A8D9;
+  color: #1B3C59;
   border-radius: 15px;
 }
 .featured__project--title {
   margin-top: 2rem;
   padding: 0.8rem;
+  color: #F26B6B;
+  text-align: center;
 }
 .featured__project--description {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .featured__project--link {
   font-size: 1.2em;
@@ -379,6 +383,9 @@
 .featured__container--img {
   width: 300px;
   margin: 0 auto;
+}
+.featured__container--caption {
+  margin-bottom: 1rem;
 }
 
 .contact {
