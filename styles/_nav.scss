@@ -102,9 +102,6 @@
                 @include transition-ease;
             }
 
-            &.active > a {
-                color: $accent;
-            }
         }
 
         &__link {
@@ -116,6 +113,10 @@
             &:hover {
                 color: $secondary-accent;
                 text-decoration: underline;
+            }
+
+            &.active {
+                color: $text;
             }
         }
     }

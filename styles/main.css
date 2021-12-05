@@ -178,9 +178,6 @@ html {
             transform: translateY(-37.5px);
   }
 }
-.nav .nav-menu__item.active > a {
-  color: #F26B6B;
-}
 .nav .nav-menu__link {
   display: inline-block;
   font-size: 1.5rem;
@@ -191,6 +188,9 @@ html {
 .nav .nav-menu__link:hover {
   color: #F2937E;
   text-decoration: underline;
+}
+.nav .nav-menu__link.active {
+  color: #fff;
 }
 
 .about__bio-background {
