@@ -460,6 +460,13 @@ html {
     font-size: 1.5rem;
   }
 
+  .about__portrait {
+    width: 125px;
+  }
+  .about__para {
+    padding: 0 10rem;
+  }
+
   .featured__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -469,7 +476,12 @@ html {
     width: 150px;
   }
   .about__para {
-    padding: 0 3rem;
+    padding: 0 15rem;
+  }
+
+  .resume__job--duties {
+    display: table;
+    margin: 0 auto;
   }
 
   .featured__container {
@@ -480,6 +492,13 @@ html {
   }
 }
 @media screen and (min-width: 1600px) {
+  .about__portrait {
+    width: 200px;
+  }
+  .about__para {
+    padding: 0 30rem;
+  }
+
   .nav-menu__item {
     padding-right: 5rem !important;
   }

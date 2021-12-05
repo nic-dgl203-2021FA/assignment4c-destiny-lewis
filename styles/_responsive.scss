@@ -29,6 +29,16 @@
         }
     }
 
+    .about {
+        &__portrait {
+            width: 125px;
+        }
+
+        &__para {
+            padding: 0 10rem;
+        }
+    }
+
     .featured {
         &__container {
             grid-template-columns: repeat(2, 1fr);
@@ -43,7 +53,14 @@
         }
 
         &__para {
-            padding: 0 3rem;
+            padding: 0 15rem;
+        }
+    }
+
+    .resume {
+        &__job--duties {
+            display: table;
+            margin: 0 auto;
         }
     }
 
@@ -61,6 +78,16 @@
 }
 
 @include screen-xl {
+
+    .about {
+        &__portrait {
+            width: 200px;
+        }
+
+        &__para {
+            padding: 0 30rem;
+        }
+    }
 
     .nav-menu {
         &__item {
