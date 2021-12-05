@@ -26,7 +26,7 @@ html {
   max-width: fit-content;
   margin: 0 auto;
   padding: 1rem;
-  background-color: #3683c8;
+  background-color: #71A8D9;
   border-radius: 25px;
   font-size: 1.5em;
 }
@@ -214,7 +214,7 @@ html {
           justify-content: center;
 }
 .about__title {
-  color: #F26B6B;
+  color: #b41010;
   position: relative;
   top: 0.5rem;
   text-align: center;
@@ -245,16 +245,16 @@ html {
 }
 .resume__job {
   margin-top: 2rem;
-  background-color: #3683c8;
+  background-color: #71A8D9;
   border-radius: 15px;
 }
 .resume__job--info {
   margin: 2rem;
   padding-bottom: 0.8rem;
-  border-bottom: 2px dashed #F26B6B;
+  border-bottom: 2px dashed #b41010;
 }
 .resume__job--title {
-  color: #F26B6B;
+  color: #b41010;
   padding-bottom: 0.8rem;
 }
 .resume__job--description {
@@ -291,7 +291,7 @@ html {
           justify-content: center;
 }
 .projects__header--title {
-  color: #F26B6B;
+  color: #b41010;
   position: relative;
   top: 8rem;
 }
@@ -305,7 +305,7 @@ html {
   grid-gap: 1.6rem;
 }
 .projects__item {
-  background-color: #3683c8;
+  background-color: #71A8D9;
   border-radius: 15px;
   padding: 1rem;
 }
@@ -319,7 +319,7 @@ html {
   text-align: center;
   margin: 0.8rem 0;
   padding-bottom: 0.8rem;
-  border-bottom: 2px dashed #F26B6B;
+  border-bottom: 2px dashed #b41010;
 }
 .projects__item--CTA {
   margin: 0.8rem 0;
@@ -346,21 +346,21 @@ html {
           justify-content: center;
 }
 .featured__header--title {
-  color: #F26B6B;
+  color: #b41010;
   position: relative;
   top: 8rem;
 }
 .featured__project {
   width: 60vw;
   margin: 0 auto;
-  background-color: #3683c8;
+  background-color: #71A8D9;
   color: #1B3C59;
   border-radius: 15px;
 }
 .featured__project--title {
   margin-top: 2rem;
   padding: 0.8rem;
-  color: #F26B6B;
+  color: #b41010;
   text-align: center;
 }
 .featured__project--description {
@@ -409,13 +409,13 @@ html {
   font-size: 1.5em;
 }
 .contact__list--title {
-  color: #F26B6B;
+  color: #b41010;
 }
 .contact__email {
   padding: 2rem 0;
 }
 .contact .fas {
-  color: #F26B6B;
+  color: #b41010;
 }
 .contact__socials {
   display: -webkit-box;
@@ -528,7 +528,7 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: #F26B6B;
+  color: #b41010;
   text-decoration: none;
 }
 a:hover {
