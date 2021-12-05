@@ -298,12 +298,12 @@
   width: 60vw;
   margin: 0 auto;
   padding-top: 2rem;
+  color: #1B3C59;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.6rem;
 }
 .projects__item {
-  color: #050c13;
   background-color: #71A8D9;
   border-radius: 15px;
   padding: 1rem;
@@ -314,7 +314,10 @@
   left: 1rem;
 }
 .projects__item--name {
+  text-align: center;
   margin: 0.8rem 0;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px dashed #F26B6B;
 }
 .projects__item--CTA {
   margin: 0.8rem 0;
