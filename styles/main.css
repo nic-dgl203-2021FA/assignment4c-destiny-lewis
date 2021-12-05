@@ -464,6 +464,14 @@ html {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .about__portrait {
+    width: 150px;
+  }
+  .about__para {
+    padding: 0 3rem;
+  }
+}
 @media screen and (min-width: 1600px) {
   .nav-menu__item {
     padding-right: 5rem !important;

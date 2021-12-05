@@ -36,6 +36,18 @@
     }
 }
 
+@include screen-lg {
+    .about {
+        &__portrait {
+            width: 150px;
+        }
+
+        &__para {
+            padding: 0 3rem;
+        }
+    }
+}
+
 @include screen-xl {
 
     .nav-menu {
