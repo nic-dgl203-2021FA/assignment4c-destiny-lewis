@@ -26,7 +26,7 @@ html {
   max-width: fit-content;
   margin: 0 auto;
   padding: 1rem;
-  background-color: #71A8D9;
+  background-color: #3683c8;
   border-radius: 25px;
   font-size: 1.5em;
 }
@@ -245,7 +245,7 @@ html {
 }
 .resume__job {
   margin-top: 2rem;
-  background-color: #71A8D9;
+  background-color: #3683c8;
   border-radius: 15px;
 }
 .resume__job--info {
@@ -305,7 +305,7 @@ html {
   grid-gap: 1.6rem;
 }
 .projects__item {
-  background-color: #71A8D9;
+  background-color: #3683c8;
   border-radius: 15px;
   padding: 1rem;
 }
@@ -353,7 +353,7 @@ html {
 .featured__project {
   width: 60vw;
   margin: 0 auto;
-  background-color: #71A8D9;
+  background-color: #3683c8;
   color: #1B3C59;
   border-radius: 15px;
 }
