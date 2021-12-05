@@ -414,6 +414,29 @@
 }
 
 @media screen and (min-width: 768px) {
+  .nav-btn {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: visible;
+  }
+  .nav .nav-menu {
+    display: block;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .nav-menu__item {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  .nav .nav-menu__link {
+    font-size: 1.5rem;
+  }
+
   .featured__container {
     grid-template-columns: repeat(2, 1fr);
   }
