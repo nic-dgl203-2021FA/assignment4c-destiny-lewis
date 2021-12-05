@@ -46,6 +46,18 @@
             padding: 0 3rem;
         }
     }
+
+    .featured {
+        &__container {
+            grid-template-columns: repeat(3, 1fr);
+
+            &--item {
+                &:last-of-type {
+                    grid-column: 2/3;
+                }
+            }
+        }
+    }
 }
 
 @include screen-xl {

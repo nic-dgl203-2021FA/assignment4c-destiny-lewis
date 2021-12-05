@@ -471,6 +471,13 @@ html {
   .about__para {
     padding: 0 3rem;
   }
+
+  .featured__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .featured__container--item:last-of-type {
+    grid-column: 2/3;
+  }
 }
 @media screen and (min-width: 1600px) {
   .nav-menu__item {
