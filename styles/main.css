@@ -333,6 +333,34 @@
   padding-bottom: 1rem;
 }
 
+.contact {
+  height: 100%;
+  padding-top: 30vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: url("../images/image-1.jpg") center top;
+  background-size: cover;
+}
+.contact__list {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 1.5em;
+  background-color: #71A8D9;
+}
+.contact__email {
+  padding: 2rem 0;
+}
+.contact .fas {
+  color: #F26B6B;
+}
+
 body {
   background-color: #1B3C59;
   color: #fff;

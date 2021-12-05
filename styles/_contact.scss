@@ -1,0 +1,26 @@
+.contact {
+    height: 100%;
+    padding-top: 30vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    background: url('../images/image-1.jpg') center top;
+    background-size: cover;
+
+    &__list {
+        max-width: fit-content;
+        margin: 0 auto;
+        padding: 1rem;
+        border-radius: 25px;
+        font-size: 1.5em;
+        background-color: $secondary;
+    }
+
+    &__email {
+        padding: 2rem 0;
+    }
+
+    .fas {
+        color: $accent;
+    }
+}
