@@ -39,6 +39,13 @@
         }
     }
 
+    .projects {
+        &__myProjects {
+            grid-template-columns: repeat(2, 1fr) !important;
+            grid-gap: 2rem;
+        }
+    }
+
     .featured {
         &__container {
             grid-template-columns: repeat(2, 1fr);

@@ -313,6 +313,7 @@ html {
   width: 90%;
   position: relative;
   left: 1rem;
+  border-radius: 15px;
 }
 .projects__item--name {
   text-align: center;
@@ -465,6 +466,11 @@ html {
   }
   .about__para {
     padding: 0 10rem;
+  }
+
+  .projects__myProjects {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 2rem;
   }
 
   .featured__container {
