@@ -498,6 +498,10 @@ html {
   }
 }
 @media screen and (min-width: 1600px) {
+  .nav-menu__item {
+    padding-right: 5rem !important;
+  }
+
   .about__portrait {
     width: 200px;
   }
@@ -505,8 +509,11 @@ html {
     padding: 0 30rem;
   }
 
-  .nav-menu__item {
-    padding-right: 5rem !important;
+  .featured__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .featured__container--item:last-of-type {
+    grid-column: 4/5;
   }
 }
 body {

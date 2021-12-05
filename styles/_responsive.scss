@@ -86,6 +86,12 @@
 
 @include screen-xl {
 
+    .nav-menu {
+        &__item {
+            padding-right: 5rem !important;
+        }
+    }
+
     .about {
         &__portrait {
             width: 200px;
@@ -96,9 +102,15 @@
         }
     }
 
-    .nav-menu {
-        &__item {
-            padding-right: 5rem !important;
+    .featured {
+        &__container {
+            grid-template-columns: repeat(4, 1fr);
+
+            &--item {
+                &:last-of-type {
+                    grid-column: 4/5;
+                }
+            }
         }
     }
 
