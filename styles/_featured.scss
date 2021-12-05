@@ -25,7 +25,6 @@
     &__project {
         width: 60vw;
         margin: 0 auto;
-        // text-align: center;
         background-color: $secondary;
         color: $primary;
         border-radius: 15px;
@@ -47,10 +46,6 @@
         &--link {
             font-size: 1.2em;
             font-weight: bold;
-
-            &:last-of-type {
-                margin-bottom: 2rem;
-            }
         }
     }
 

@@ -368,9 +368,6 @@
   font-size: 1.2em;
   font-weight: bold;
 }
-.featured__project--link:last-of-type {
-  margin-bottom: 2rem;
-}
 .featured__container {
   display: grid;
   grid-template-columns: 1fr;
@@ -416,6 +413,24 @@
   color: #F26B6B;
 }
 
+@media screen and (min-width: 768px) {
+  .featured__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .socials .fab {
+    margin: 0.5rem;
+  }
+}
 body {
   background-color: #1B3C59;
   color: #fff;

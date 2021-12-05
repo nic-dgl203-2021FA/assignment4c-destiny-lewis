@@ -1,0 +1,17 @@
+@include screen-md {
+
+    .featured {
+        &__container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row !important;
+    
+        .fab {
+            margin: 0.5rem;
+        }
+    }
+}
