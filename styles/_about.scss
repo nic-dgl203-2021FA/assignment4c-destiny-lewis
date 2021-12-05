@@ -3,7 +3,13 @@
     &__bio-background {
         height: 40vh;
         width: 100%;
-        background-color: $secondary;
+        background: linear-gradient(
+            to right, 
+            rgba($primary, 0.7),
+            rgba($primary, 0.1),
+            ),
+            url('../images/image-1.jpg') center top;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -11,7 +17,7 @@
     }
 
     &__title {
-        color: darken($secondary, 40%);
+        color: $accent;
         position: relative;
         top: 1rem;
         text-align: center;
@@ -26,7 +32,7 @@
     }
 
     &__para {
-        color: darken($secondary, 60%);
+        color: $text;
         font-weight: 400;
         position: relative;
         top: 2rem;
