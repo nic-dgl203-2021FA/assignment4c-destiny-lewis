@@ -2,7 +2,6 @@
 
     header {
         position: static !important;
-        background: transparent !important;
     }
 
     .nav-btn {
@@ -38,5 +37,11 @@
 }
 
 @include screen-xl {
+
+    .nav-menu {
+        &__item {
+            padding-right: 5rem !important;
+        }
+    }
 
 }

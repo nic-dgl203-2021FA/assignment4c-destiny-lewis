@@ -435,7 +435,6 @@ html {
 @media screen and (min-width: 768px) {
   header {
     position: static !important;
-    background: transparent !important;
   }
 
   .nav-btn {
@@ -463,6 +462,11 @@ html {
 
   .featured__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .nav-menu__item {
+    padding-right: 5rem !important;
   }
 }
 body {
