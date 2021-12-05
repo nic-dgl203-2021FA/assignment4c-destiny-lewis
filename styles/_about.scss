@@ -1,0 +1,36 @@
+.about {
+
+    &__bio-background {
+        height: 40vh;
+        width: 100%;
+        background-color: $secondary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        color: darken($secondary, 40%);
+        position: relative;
+        top: 1rem;
+        text-align: center;
+    }
+
+    &__portrait {
+        width: 100px;
+        border-radius: 15px;
+        position: relative;
+        top: 2rem;
+        left: 40%;
+    }
+
+    &__para {
+        color: darken($secondary, 60%);
+        font-weight: 400;
+        position: relative;
+        top: 2rem;
+        text-align: center;
+        margin: 1rem;
+    }
+}
